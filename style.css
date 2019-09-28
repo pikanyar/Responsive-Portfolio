@@ -1,0 +1,256 @@
+* {
+    box-sizing: border-box;  
+  }
+
+  /*--About me--*/
+
+
+body {
+   font-family: Arial, Helvetica, sans-serif;
+   background: url(white-waves.png);
+   font-size: 18px;
+   text-decoration: none;
+   color: #777777;  
+}
+
+header {
+    position: relative;
+    display: block; 
+    margin: 0 auto;
+    padding: 1rem 5 rem;
+    background-color: #ffffff;
+    border-bottom-color: #cccccc;
+    border: 20px;
+    margin-top: 20px;
+    margin-top: 10px;
+    padding-right: 17px;
+    padding-bottom: 15px;
+}
+
+header h5 {
+    line-height: 45px;
+    font-size: 2rem;
+    margin: 0;
+    display: inline;
+    background: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 250px;
+    color: #ffffff;
+    padding-top: 4px;
+    padding-bottom: 18px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+}
+
+nav {
+    padding-left: 15px;
+    margin-bottom: 0;
+    margin-top: 15px;
+    list-style: none;
+    float: right;
+    display: inline;
+    margin-right: 280px;
+    color: #777777;
+}
+
+nav  li {
+    position: relative;
+    display: inline-block;
+    list-style-type: none;
+    font-family: "Open Sans", "Droid Sans", Helvetica, Arial, sans-serif;
+    color: #222;
+    padding: 0 1rem;
+}
+
+nav li > a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+}
+
+nav > li > a:hover
+nav > li > a:focus {
+    text-decoration: none;
+    background-color: #eee;
+}
+
+
+
+h1 {
+    color: #4aaaa5;
+}
+
+.container {
+    background-color: #ffffff;
+    padding-left: 20px;
+    padding-left: 20px;
+    margin-right: 300px;
+    margin-left: 250px;
+    padding-bottom: 110px;
+    margin-bottom: 125px;
+    margin-top: 30px;
+    padding-right: 20px;
+}
+
+.photo {
+    float: left;
+    
+}
+
+img {
+    
+    margin: 11px;
+}
+
+/*--portfolio--*/
+
+#main {
+    padding: 20px;
+}
+
+.main-header {
+    background-color: #ffffff;
+    border-color: #dddddd;
+    border: 5px;
+    padding-left: 12px;
+    padding-right: 50px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    margin-top: 40px;
+    margin-left: 250px;
+    margin-bottom: 50px;
+    width: 100%;
+    max-width: 960px;
+    border: 20px;
+    float: left;
+   
+}
+
+h2 {
+    color: #4aaaa5;
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+
+}
+
+.row {
+    position: relative;
+}
+
+.image {
+    color: #ffffff;
+    margin: 10px;
+    float: left;
+    margin-right: 10px;
+    text-align: center;
+    font-size: 12px;
+    border-color: #ffffff;
+    border: 5px;
+   
+}
+
+/*--contact--*/
+
+.main-section {
+    background-color: #ffffff;
+    margin-right: 20px;
+    max-width: 960px;
+    margin-left: 255px;
+    margin-top: 50px;
+    padding-top: 45px;
+    padding-left: 45px;
+    padding-bottom: 40px;
+}
+
+.title {
+    color: #4aaaa5;
+    font-size: 28px;
+}
+
+.input-fields {
+    text-align: left;
+}
+
+
+#name {
+    width: 800px;
+    height: 40px;
+    margin-left: 78px;
+    margin-bottom: 10px;
+}
+
+#email {
+    width: 800px;
+    height: 40px;
+    margin-left: 78px;
+    margin-bottom: 20px;
+}
+
+
+#msg {
+    width: 800px;
+    height: 186px;
+    padding-left: 50px;
+}
+
+
+.button {
+    margin-top: 10px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+/*--footer--*/
+
+footer {
+    background-color: #666666;
+    border-top: solid #4aaaa5 8px;
+    text-align: center;
+    width: 100%;
+    clear: both;
+    margin-top: 80px;
+    padding-bottom: 20px;
+    color: #cccccc;
+}
+
+
+.image h2 {
+   
+    position: relative;
+    background-color: lightblue;
+    bottom: 41px;
+    margin: 0 5%;
+}
+
+
+@media screen and (max-width: 640px) {
+   div {
+      background-color: violet;
+    }
+    header {
+        position:fixed; 
+        z-index:2;
+    }
+  }
+
+  
+@media screen and (max-width: 768px) {
+    div {
+       background-color: violet;
+     }
+   }
+
+
+   @media screen and (max-width: 980px) {
+    div {
+       background-color: violet;
+     }
+   }
+
